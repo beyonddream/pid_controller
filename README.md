@@ -39,3 +39,6 @@ kP = 0.85, kI = 0.2, kD = 0.6, target = 10, output = -4.949999999999999, prev_er
 kP = 0.85, kI = 0.2, kD = 0.6, target = 10, output = 0, prev_error = 0, prev_integral = 0, last_updated_s = 1662927960.496434
 ```
 
+## License
+
+pid_controller is licensed under the MIT license.
