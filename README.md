@@ -3,7 +3,7 @@ A PID (Proportional Integral Derivative) controller written in python.
 
 ## Resources
 
-* georgegillard.com/documents/2-introduction-to-pid-controllers
+* https://georgegillard.com/documents/2-introduction-to-pid-controllers
 
 ## Run - with arbitrary (kP, kI, kD)
 
