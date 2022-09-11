@@ -4,8 +4,6 @@ from copy import copy
 import time
 import math
 
-from typing import AnyStr
-
 class PIDController:
 
     class PIDState:
@@ -94,19 +92,21 @@ if __name__ == '__main__':
     p = PIDController(1, 0.15, 0.3, target)
     input = 13
     output = p.update(input)
-    print(f"p: {p}, input = {input}, output = {output}, target = {target}, actual = {input + output}")
+    print(f"input = {input}, output = {output}, target = {target}, actual = {input + output}")
     input = input + output
     output = p.update(input)
-    print(f"p: {p}, input = {input}, output = {output}, target = {target}, actual = {input + output}")
+    print(f"input = {input}, output = {output}, target = {target}, actual = {input + output}")
     input = input + output
     output = p.update(input)
-    print(f"p: {p}, input = {input}, output = {output}, target = {target}, actual = {input + output}")
+    print(f"input = {input}, output = {output}, target = {target}, actual = {input + output}")
     input = input + output
     output = p.update(input)
-    print(f"p: {p}, input = {input}, output = {output}, target = {target}, actual = {input + output}")
+    print(f"input = {input}, output = {output}, target = {target}, actual = {input + output}")
     input = input + output
     output = p.update(input)
-    print(f"p: {p}, input = {input}, output = {output}, target = {target}, actual = {input + output}")
+    print(f"input = {input}, output = {output}, target = {target}, actual = {input + output}")
     input = input + output
     output = p.update(input)
-    print(f"p: {p}, input = {input}, output = {output}, target = {target}, actual = {input + output}")
+    print(f"input = {input}, output = {output}, target = {target}, actual = {input + output}")
+
+    print(f"\nDump state\n{p}")
